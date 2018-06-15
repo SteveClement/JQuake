@@ -1,0 +1,33 @@
+
+# usgs.gov Earthquake data URLs
+
+magScale = [ "all", "1.0", "2.5", "4.5", "significant" ]
+timeLine = [ "hour", "day", "week", "month" ]
+
+
+usgsBaseURL = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/"
+
+usgsAllHourly = usgsBaseURL + magScale[0] + "_" + timeLine[0] + ".geojson"
+usgsAllDaily = usgsBaseURL + magScale[0] + "_" + timeLine[1] + ".geojson"
+usgsAllWeekly = usgsBaseURL + magScale[0] + "_" + timeLine[2] + ".geojson"
+usgsAllMonthly = usgsBaseURL + magScale[0] + "_" + timeLine[3] + ".geojson"
+
+usgsOneHourly = usgsBaseURL + magScale[1] + "_" + timeLine[0] + ".geojson"
+usgsOneDaily = usgsBaseURL + magScale[1] + "_" + timeLine[1] + ".geojson"
+usgsOneWeekly = usgsBaseURL + magScale[1] + "_" + timeLine[2] + ".geojson"
+usgsOneMonthly = usgsBaseURL + magScale[1] + "_" + timeLine[3] + ".geojson"
+
+usgsTwoFiveHourly = usgsBaseURL + magScale[2] + "_" + timeLine[0] + ".geojson"
+usgsTwoFiveDaily = usgsBaseURL + magScale[2] + "_" + timeLine[1] + ".geojson"
+usgsTwoFiveWeekly = usgsBaseURL + magScale[2] + "_" + timeLine[2] + ".geojson"
+usgsTwoFiveMonthly = usgsBaseURL + magScale[2] + "_" + timeLine[3] + ".geojson"
+
+usgsFourFiveHourly = usgsBaseURL + magScale[3] + "_" + timeLine[0] + ".geojson"
+usgsFourFiveDaily = usgsBaseURL + magScale[3] + "_" + timeLine[1] + ".geojson"
+usgsFourFiveWeekly = usgsBaseURL + magScale[3] + "_" + timeLine[2] + ".geojson"
+usgsFourFiveMonthly = usgsBaseURL + magScale[3] + "_" + timeLine[3] + ".geojson"
+
+usgsSignificantHourly = usgsBaseURL + magScale[4] + "_" + timeLine[0] + ".geojson"
+usgsSignificantDaily = usgsBaseURL + magScale[4] + "_" + timeLine[1] + ".geojson"
+usgsSignificantWeekly = usgsBaseURL + magScale[4] + "_" + timeLine[2] + ".geojson"
+usgsSignificantMonthly = usgsBaseURL + magScale[4] + "_" + timeLine[3] + ".geojson"

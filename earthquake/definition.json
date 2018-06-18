@@ -18,6 +18,12 @@
 
     ],
   "attributes": {
+      "place": {
+            "description": "",
+            "disable_correlation": false,
+            "ui-priority": 0,
+            "misp-attribute": "text"
+      },
       "title": {
             "description": "Title of the Event",
             "disable_correlation": true,
